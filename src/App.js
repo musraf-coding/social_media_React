@@ -142,7 +142,7 @@ console.log(err.message)
                   <Nav search={search}
                   setSearch={setSearch}/>
                     <Routes>
-                                  <Route path="/" element={<Home posts= {posts}
+                                  <Route path="/" element={<Home posts= {searchRes}
                                   fetchError={fetchError}
                                   isLoading={isLoading}/>}/>
                             <Route path="/post">
