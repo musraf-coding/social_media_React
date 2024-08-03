@@ -1,6 +1,5 @@
 {
   "posts": [
-    
     {
       "id": "4",
       "name": "sm",
@@ -8,13 +7,8 @@
     },
     {
       "id": "41",
-      "name": "aantu",
-      "body": "santhyagu"
-    },
-    {
-      "id": "411",
-      "name": "musraf",
-      "body": "i am a full stack developer\n"
+      "name": "web development",
+      "body": "wwww"
     }
   ]
 }
