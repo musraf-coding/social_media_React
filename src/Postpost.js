@@ -19,8 +19,8 @@ const Postpost = ({posts,handleDelete}) => {
         <p className='postBody'>
           {post.body}
         </p>
-        <button  className="deleteButton"onClick={()=>handleDelete(post.id)}>Delete Contact</button>
-        <button className="editButton"><Link to={`/edit/${post.id}`}>Edit Contact</Link></button>
+        <button  className="deleteButton"onClick={()=>handleDelete(post.id)}>Delete Post</button>
+        <button className="editButton"><Link to={`/edit/${post.id}`}>Edit Post</Link></button>
         </>
       }
       {!post &&

@@ -138,7 +138,7 @@ console.log(err.message)
     <div className="App">
       
      
-                  <Header tittle="Musraf Contact List" width={width}/>
+                  <Header tittle="Musraf Social Media" width={width}/>
                   <Nav search={search}
                   setSearch={setSearch}/>
                     <Routes>

@@ -13,7 +13,7 @@ const Nav = ({search,setSearch}) => {
       required
       id='search'
       type='text'
-      placeholder='Search Name'
+      placeholder='Search Post'
       value={search}
       onChange={(e)=>setSearch(e.target.value)}
       />
@@ -21,7 +21,7 @@ const Nav = ({search,setSearch}) => {
 
         <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/post">Add</Link></li>
+              <li><Link to="/post">Post</Link></li>
               <li><Link to="/about">About</Link></li>
               
         </ul>
