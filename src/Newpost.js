@@ -5,7 +5,7 @@ const Newpost = ({handleSubmit,postName,setPostName,postBody,setPostBody}) => {
     return (
     <main className='NewPost'>
 
-    <h2>New Post</h2>
+    <h2>Add Contact</h2>
     <form className='newPostForm' onSubmit={handleSubmit}>
 
       <label htmlFor='postName'>Name:</label>
@@ -16,16 +16,16 @@ const Newpost = ({handleSubmit,postName,setPostName,postBody,setPostBody}) => {
           value={postName}
           onChange={(e)=>setPostName(e.target.value)}
       />
-        <label htmlFor='postBody'>Body:</label>
-      <textarea
+        <label htmlFor='postBody'>Number:</label>
+      <input
           id='postBody'
           type='text'
-          placeholder='Body'
+          placeholder='Number'
           value={postBody}
           onChange={(e)=>setPostBody(e.target.value)}
       />
 
-      <button type='submit'>Submit</button>
+      <button type='submit'>ADD</button>
 
     </form>
     </main>
